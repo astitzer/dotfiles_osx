@@ -143,3 +143,7 @@ alias reload="exec $SHELL -l"
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Laravel
+alias lar="php artisan"
+alias larcache="php artisan cache:clear"
