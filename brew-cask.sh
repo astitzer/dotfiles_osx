@@ -20,5 +20,5 @@ brew cask install virtualbox
 brew cask install citrix-receiver
 brew cask install vlc
 
-#brew install npm
-#npm install grunt-cli -g
+brew install npm
+npm install grunt-cli -g
