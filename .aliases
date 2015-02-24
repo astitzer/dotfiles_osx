@@ -147,3 +147,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # Laravel
 alias lar="php artisan"
 alias larcache="php artisan cache:clear"
+
+# VPNC
+alias vpncd="sudo /opt/local/sbin/vpnc-disconnect"
