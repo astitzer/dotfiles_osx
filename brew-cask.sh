@@ -6,6 +6,7 @@ brew tap caskroom/versions
 # dev 
 brew cask install sublime-text3
 brew cask install github
+brew cask install macports
 
 # daily
 brew cask install dropbox
@@ -19,6 +20,7 @@ brew cask install firefox-nightly --force
 brew cask install virtualbox
 brew cask install citrix-receiver
 brew cask install vlc
+brew cask install flash-player
 
 brew install npm
 npm install grunt-cli -g
