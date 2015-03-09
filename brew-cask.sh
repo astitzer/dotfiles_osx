@@ -7,6 +7,7 @@ brew tap caskroom/versions
 brew cask install sublime-text3
 brew cask install github
 brew cask install macports
+brew cask install transmit
 
 # daily
 brew cask install dropbox

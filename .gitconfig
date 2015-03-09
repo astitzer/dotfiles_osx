@@ -23,7 +23,8 @@
 	untracked = red bold
 
 [alias]
-	a = add .
+	a = add 
+	aa = add .
 	#############
 	b = branch
 	ba = branch -a
