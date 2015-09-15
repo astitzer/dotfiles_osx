@@ -14,6 +14,7 @@ alias s="cd ~/Sites"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias of="open ./"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -149,4 +150,16 @@ alias lar="php artisan"
 alias larcache="php artisan cache:clear"
 
 # VPNC
+alias tuntap="sudo kextload /Library/Extensions/tap.kext && sudo kextload /Library/Extensions/tun.kext"
 alias vpncd="sudo /opt/local/sbin/vpnc-disconnect"
+
+# Custom
+function gsql() {
+    mkdir SQL/$1 && touch SQL/$1/pre.sql
+}
+alias gsql=gsql
+
+function tt() {
+    sudo kextload /Library/Extensions/tap.kext
+    sudo kextload /Library/Extensions/tun.kext
+}

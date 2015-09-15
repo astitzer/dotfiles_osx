@@ -1,2 +1,2 @@
 
-export PATH="/opt/local/bin:/opt/local/sbin:/usr/bin/$HOME/bin:~/:$PATH";
+export PATH="/opt/local/bin:/opt/local/sbin:/usr/bin/$HOME/bin:~/:~/.composer/vendor/bin/:$PATH";
