@@ -15,6 +15,7 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias of="open ./"
+alias deploy="/usr/bin/ruby ~/Sites/deploy/deploy"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -163,3 +164,6 @@ function tt() {
     sudo kextload /Library/Extensions/tap.kext
     sudo kextload /Library/Extensions/tun.kext
 }
+
+# DNS Flush
+alias dnsflush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say flushed"
