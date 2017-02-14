@@ -154,6 +154,9 @@ alias larcache="php artisan cache:clear"
 alias tuntap="sudo kextload /Library/Extensions/tap.kext && sudo kextload /Library/Extensions/tun.kext"
 alias vpncd="sudo /opt/local/sbin/vpnc-disconnect"
 
+# Sublime Text
+alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
 # Custom
 function gsql() {
     mkdir SQL/$1 && touch SQL/$1/pre.sql
