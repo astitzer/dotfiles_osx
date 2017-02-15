@@ -149,7 +149,7 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # Laravel
 alias lar="php artisan"
 alias larc="php artisan cache:clear"
-aleas larv="php artisan view:clear"
+alias larv="php artisan view:clear"
 
 # VPNC
 alias tuntap="sudo kextload /Library/Extensions/tap.kext && sudo kextload /Library/Extensions/tun.kext"
