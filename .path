@@ -1,2 +1,2 @@
 
-export PATH="/opt/local/bin:/opt/local/lib/mysql56/bin:/opt/local/sbin:/usr/bin/$HOME/bin:~/:~/.composer/vendor/bin/:$PATH";
+export PATH="/opt/local/bin:/opt/local/lib/mysql56/bin:/opt/local/sbin:/usr/bin/$HOME/bin:~/:~/.composer/vendor/bin/:~/Library/Python/3.6/bin/:$PATH";
