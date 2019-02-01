@@ -24,4 +24,7 @@ brew cask install vlc
 brew cask install flash-player
 
 brew install npm
-npm install grunt-cli -g
+
+# node
+npm install -g grunt-cli
+npm install -g prisma
