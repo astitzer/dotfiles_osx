@@ -11,5 +11,8 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
+# Misc #
+###################
 .extra
 notes.md
+*.sublime-project
