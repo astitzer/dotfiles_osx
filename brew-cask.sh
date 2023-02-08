@@ -4,27 +4,18 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 # dev 
-brew cask install sublime-text
-brew cask install github
-brew cask install macports
-brew cask install transmit
-
-# daily
-brew cask install dropbox
+brew install --cask visual-studio-code
+brew install --cask github
+brew install --cask macports
 
 # browsers
-brew cask install google-chrome
-brew cask install google-hangouts
-brew cask install firefox-nightly --force
+brew install --cask google-chrome
+brew install --cask firefox-nightly --force
 
 # less often
-brew cask install virtualbox
-brew cask install citrix-receiver
-brew cask install vlc
-brew cask install flash-player
+brew install --cask virtualbox
+brew install --cask citrix-receiver
 
 brew install npm
 
 # node
-npm install -g grunt-cli
-npm install -g prisma
